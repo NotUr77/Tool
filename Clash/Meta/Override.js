@@ -157,19 +157,18 @@ function main(config) {
     },
     {
       ...groupBaseOption,
-      "name": "Emby",
-      "type": "select",
-      "include-all": true,
-      "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
-      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png"
-    },
-    {
-      ...groupBaseOption,
       "name": "Spotify",
       "type": "select",
       "include-all": true,
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png"
+    },
+    {
+      ...groupBaseOption,
+      "name": "个人服务",
+      "type": "select",
+      "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png"
     },
     {
       ...groupBaseOption,
@@ -353,12 +352,19 @@ function main(config) {
       "behavior": "classical",
       "url": "https://github.com/Repcz/Tool/raw/X/Clash/Rules/ProxyGFW.list",
       "path": "./rules/ProxyGFW.list"
-    }
+    },
+    "PersonalService": {
+      ...ruleProviderCommon,
+      "behavior": "classical",
+      "url": "https://github.com/NotUr77/Tool/raw/X/Clash/Rules/Personal_Service.list",
+      "path": "./rules/Personal_Service.list"
+    },
   };
 
   // 覆盖规则
   config["rules"] = [
     "RULE-SET,AD,REJECT",
+    "RULE-SET,PersonalService,个人服务",
     "RULE-SET,AI,AI",
     "RULE-SET,Apple,苹果服务",
     "RULE-SET,YouTube,谷歌服务",
@@ -367,16 +373,15 @@ function main(config) {
     "RULE-SET,Twitter,推特消息",
     "RULE-SET,Steam,游戏平台",
     "RULE-SET,Epic,游戏平台",
-    "RULE-SET,Emby,Emby",
-    "RULE-SET,Spotify,Spotify",
     "RULE-SET,Bahamut,国际媒体",
     "RULE-SET,Netflix,国际媒体",
     "RULE-SET,Disney,国际媒体",
     "RULE-SET,PrimeVideo,国际媒体",
     "RULE-SET,HBO,国际媒体",
     "GEOSITE,onedrive,微软服务",
-    "GEOSITE,github,微软服务",
+    "GEOSITE,github,谷歌服务",
     "GEOSITE,microsoft,微软服务",
+    "GEOSITE,bing,微软服务",
     "GEOSITE,gfw,国外网站",
     "GEOIP,private,DIRECT",
     "GEOIP,cn,DIRECT",

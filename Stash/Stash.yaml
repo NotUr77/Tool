@@ -54,8 +54,6 @@ proxy-groups:
 
   - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
 
-  - {name: 个人服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png,type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
-
   - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
 
   # 节点地区分流
@@ -121,6 +119,8 @@ rule-providers:
   # 代理网站
   ProxyGFW: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/ProxyGFW.list}
 
+  PersonalService: {behavior: classical, format: text, interval: 86400, url: https://github.com/NotUr77/Tool/raw/X/Stash/Rules/Personal_Service.list}
+
 rules:
   - RULE-SET,Reject,REJECT
   - RULE-SET,AI,AI
@@ -143,6 +143,7 @@ rules:
   - RULE-SET,TikTok,国际媒体
   - RULE-SET,Spotify,Spotify
   - RULE-SET,ProxyGFW,国外网站
+  - RULE-SET,PersonalService,DIRECT
   - RULE-SET,AppleProxy,国外网站
   - RULE-SET,Apple,DIRECT
   - GEOSITE,themoviedb,国际媒体

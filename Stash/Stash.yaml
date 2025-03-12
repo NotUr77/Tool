@@ -54,6 +54,8 @@ proxy-groups:
 
   - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
 
+  - {name: 个人服务, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png,type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
   - {name: 兜底分流, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
 
   # 节点地区分流
@@ -83,11 +85,11 @@ rule-providers:
   # 微软服务 
   Microsoft: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Microsoft.list}
   OneDrive: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/OneDrive.list}
-  Github: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Github.list}
 
   # 谷歌服务
   Youtube: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/YouTube.list}
   Google: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Google.list}
+  Github: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Github.list}
 
   # 电报消息
   Telegram: {behavior: classical, format: text, interval: 86400, url: https://github.com/Repcz/Tool/raw/X/Stash/Rules/Telegram.list}
@@ -143,6 +145,11 @@ rules:
   - RULE-SET,ProxyGFW,国外网站
   - RULE-SET,AppleProxy,国外网站
   - RULE-SET,Apple,DIRECT
+  - GEOSITE,themoviedb,国际媒体
+  - GEOSITE,tmdb,国际媒体
+  - GEOSITE,thetvdb,国际媒体
+  - GEOSITE,bing,微软服务
+  - GEOSITE,github,谷歌服务
   - RULE-SET,Lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,兜底分流

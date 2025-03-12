@@ -74,6 +74,7 @@ proxy-groups:
   - {name: 谷歌服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
   - {name: 电报消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
   - {name: 推特消息, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png}
+  - {name: 个人服务, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Daily.png}
   - {name: AI, <<: *pg, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
   - {name: 游戏平台, <<: *pg, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
   - {name: Emby, <<: *pg, include-all: true, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
@@ -103,6 +104,7 @@ rule-providers:
   PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/PrimeVideo.list}
   HBO: {<<: *c, path: ./rules/HBO.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/HBO.list}
   TikTok: {<<: *c, path: ./rules/TikTok.list, url: https://github.com/Repcz/Tool/raw/X/Clash/Rules/TikTok.list}
+  PersonalService: {<<: *c, path: ./rules/PersonalService.list, url: https://github.com/NotUr77/Tool/raw/X/Clash/Rules/Personal_Service.list}
 
 rules:
   - RULE-SET,AD,REJECT
@@ -124,7 +126,11 @@ rules:
   - RULE-SET,HBO,国际媒体
   - RULE-SET,TikTok,国际媒体
   - GEOSITE,onedrive,微软服务
-  - GEOSITE,github,微软服务
+  - GEOSITE,themoviedb,国际媒体
+  - GEOSITE,tmdb,国际媒体
+  - GEOSITE,thetvdb,国际媒体
+  - GEOSITE,bing,微软服务
+  - GEOSITE,github,谷歌服务
   - GEOSITE,microsoft,微软服务
   - GEOSITE,gfw,国外网站
   - GEOIP,private,DIRECT

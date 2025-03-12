@@ -1,5 +1,5 @@
 # 规则名称: CDN
-# 规则统计: 3273
+# 规则统计: 3288
 
 HOST,0x0.st,CDN
 HOST,3dna.nationbuilder.com,CDN
@@ -196,7 +196,6 @@ HOST,assets.salesmartly.com,CDN
 HOST,assets.scaleflex.com,CDN
 HOST,assets.scaleway.com,CDN
 HOST,assets.science.nasa.gov,CDN
-HOST,assets.scroll.com,CDN
 HOST,assets.sendinblue.com,CDN
 HOST,assets.shazam.com,CDN
 HOST,assets.sololearn.com,CDN
@@ -814,6 +813,7 @@ HOST,crl.usertrust.com,CDN
 HOST,crl.verisign.com,CDN
 HOST,crt.comodoca.com,CDN
 HOST,crt.usertrust.com,CDN
+HOST,csp.microsoft.com,CDN
 HOST,css-1-cdn.airdroid.com,CDN
 HOST,css.blackmagicdesign.com,CDN
 HOST,css.createsend1.com,CDN
@@ -821,6 +821,7 @@ HOST,curl.se,CDN
 HOST,cw-image-resizer.cwg.tw,CDN
 HOST,d4.alternativeto.net,CDN
 HOST,dam.freshworks.com,CDN
+HOST,dassets.shimano.com,CDN
 HOST,data.jsdelivr.com,CDN
 HOST,data.web.clickup.com,CDN
 HOST,david-dm.org,CDN
@@ -894,6 +895,7 @@ HOST,encrypted-vtbn2.gstatic.com,CDN
 HOST,encrypted-vtbn3.gstatic.com,CDN
 HOST,epic-social-social-modules-prod.ol.epicgames.com,CDN
 HOST,error.rakuten.co.jp,CDN
+HOST,eslint.org,CDN
 HOST,eslint.style,CDN
 HOST,eu-images.contentstack.com,CDN
 HOST,eu.cdnbye.com,CDN
@@ -1223,12 +1225,22 @@ HOST,img.windy.com,CDN
 HOST,img.xhacgn.com,CDN
 HOST,img.xjh.me,CDN
 HOST,img.youtube.com,CDN
+HOST,img0.yna.co.kr,CDN
 HOST,img1.ak.crunchyroll.com,CDN
+HOST,img1.yna.co.kr,CDN
 HOST,img2.tnaflix.com,CDN
 HOST,img2.xiangbinjun.com,CDN
+HOST,img2.yna.co.kr,CDN
 HOST,img3.airdroid.com,CDN
+HOST,img3.yna.co.kr,CDN
 HOST,img4.airdroid.com,CDN
+HOST,img4.yna.co.kr,CDN
+HOST,img5.yna.co.kr,CDN
 HOST,img6.airdroid.com,CDN
+HOST,img6.yna.co.kr,CDN
+HOST,img7.yna.co.kr,CDN
+HOST,img8.yna.co.kr,CDN
+HOST,img9.yna.co.kr,CDN
 HOST,imgcdn.cna.com.tw,CDN
 HOST,imgix.setapp.com,CDN
 HOST,imgopt.infoq.com,CDN
@@ -1737,6 +1749,7 @@ HOST,sdk.snapkit.com,CDN
 HOST,sdk.split.io,CDN
 HOST,seal-newyork.bbb.org,CDN
 HOST,searchanise-ef84.kxcdn.com,CDN
+HOST,searchg2-assets.crownpeak.net,CDN
 HOST,searchserverapi.com,CDN
 HOST,seccdn.libravatar.org,CDN
 HOST,secure-res.craft.do,CDN
@@ -1838,7 +1851,6 @@ HOST,static-redesign.cnbcfm.com,CDN
 HOST,static-resource.np.community.playstation.net,CDN
 HOST,static-secure-uploads.ui.com,CDN
 HOST,static-sg-cdn.eporner.com,CDN
-HOST,static-staging.scroll.com,CDN
 HOST,static-sv.fc2.com,CDN
 HOST,static-web-prod.skillshare.com,CDN
 HOST,static-web.grammarly.com,CDN
@@ -1968,6 +1980,7 @@ HOST,static.oracle.com,CDN
 HOST,static.osdn.net,CDN
 HOST,static.parallels.com,CDN
 HOST,static.peatio.com,CDN
+HOST,static.pfrt.yna.co.kr,CDN
 HOST,static.pingcap.com,CDN
 HOST,static.playstation.com,CDN
 HOST,static.plus.net,CDN
@@ -1980,7 +1993,6 @@ HOST,static.reo.dev,CDN
 HOST,static.replay.io,CDN
 HOST,static.rust-lang.org,CDN
 HOST,static.scarf.sh,CDN
-HOST,static.scroll.com,CDN
 HOST,static.seel.com,CDN
 HOST,static.skyassets.com,CDN
 HOST,static.snapchat.com,CDN
@@ -2097,6 +2109,7 @@ HOST,telemetry.business.githubcopilot.com,CDN
 HOST,telemetry.individual.githubcopilot.com,CDN
 HOST,telemetry.nextjs.org,CDN
 HOST,telemetry.split.io,CDN
+HOST,telemetry.stepsecurity.io,CDN
 HOST,telemetry.vercel.com,CDN
 HOST,telemetry2.devolutions.net,CDN
 HOST,th.bing.com,CDN
@@ -2118,6 +2131,7 @@ HOST,tn.vjav.com,CDN
 HOST,todoist.b-cdn.net,CDN
 HOST,ton.local.twitter.com,CDN
 HOST,tools-static.wmflabs.org,CDN
+HOST,tools.refokus.com,CDN
 HOST,topbar-static.piano.io,CDN
 HOST,torrindex.net,CDN
 HOST,touchgal-image.moyu.moe,CDN
@@ -2894,6 +2908,7 @@ HOST-SUFFIX,permaweb.io,CDN
 HOST-SUFFIX,pgl.yoyo.org,CDN
 HOST-SUFFIX,phncdn.com,CDN
 HOST-SUFFIX,photobucket.com,CDN
+HOST-SUFFIX,photocdn.stream,CDN
 HOST-SUFFIX,phprcdn.com,CDN
 HOST-SUFFIX,pichost.top,CDN
 HOST-SUFFIX,picjs.xyz,CDN

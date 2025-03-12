@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7098
+# 规则统计: 7101
 
 HOST,cloud.oracle.com,ProxyGFW
 HOST,steambroadcast.akamaized.net,ProxyGFW
@@ -120,6 +120,7 @@ HOST-SUFFIX,64wiki.com,ProxyGFW
 HOST-SUFFIX,66.ca,ProxyGFW
 HOST-SUFFIX,666kb.com,ProxyGFW
 HOST-SUFFIX,666pool.cn,ProxyGFW
+HOST-SUFFIX,69shuba.cx,ProxyGFW
 HOST-SUFFIX,6do.news,ProxyGFW
 HOST-SUFFIX,6do.world,ProxyGFW
 HOST-SUFFIX,6park.com,ProxyGFW
@@ -3732,7 +3733,6 @@ HOST-SUFFIX,mansionpoker.com,ProxyGFW
 HOST-SUFFIX,manta.com,ProxyGFW
 HOST-SUFFIX,manyvoices.news,ProxyGFW
 HOST-SUFFIX,maplew.com,ProxyGFW
-HOST-SUFFIX,maps.googleapis.com,ProxyGFW
 HOST-SUFFIX,marc.info,ProxyGFW
 HOST-SUFFIX,marguerite.su,ProxyGFW
 HOST-SUFFIX,martau.com,ProxyGFW
@@ -3985,6 +3985,7 @@ HOST-SUFFIX,multiupload.com,ProxyGFW
 HOST-SUFFIX,mummysgold.com,ProxyGFW
 HOST-SUFFIX,murmur.tw,ProxyGFW
 HOST-SUFFIX,musicade.net,ProxyGFW
+HOST-SUFFIX,musixmatch.com,ProxyGFW
 HOST-SUFFIX,muslimvideo.com,ProxyGFW
 HOST-SUFFIX,muzi.com,ProxyGFW
 HOST-SUFFIX,muzi.net,ProxyGFW
@@ -4400,6 +4401,7 @@ HOST-SUFFIX,ontrac.com,ProxyGFW
 HOST-SUFFIX,oopsforum.com,ProxyGFW
 HOST-SUFFIX,open.com.hk,ProxyGFW
 HOST-SUFFIX,open.firstory.me,ProxyGFW
+HOST-SUFFIX,open.spotify.com,ProxyGFW
 HOST-SUFFIX,openai.com,ProxyGFW
 HOST-SUFFIX,openallweb.com,ProxyGFW
 HOST-SUFFIX,opendemocracy.net,ProxyGFW
@@ -4648,6 +4650,7 @@ HOST-SUFFIX,politicalchina.org,ProxyGFW
 HOST-SUFFIX,politicalconsultation.org,ProxyGFW
 HOST-SUFFIX,politiscales.net,ProxyGFW
 HOST-SUFFIX,poloniex.com,ProxyGFW
+HOST-SUFFIX,polymarket.com,ProxyGFW
 HOST-SUFFIX,polymer-project.org,ProxyGFW
 HOST-SUFFIX,polymerhk.com,ProxyGFW
 HOST-SUFFIX,poolbinance.com,ProxyGFW
@@ -5911,7 +5914,6 @@ HOST-SUFFIX,tracfone.com,ProxyGFW
 HOST-SUFFIX,tradingview.com,ProxyGFW
 HOST-SUFFIX,trans.wenweipo.com,ProxyGFW
 HOST-SUFFIX,translate.goog,ProxyGFW
-HOST-SUFFIX,translate.googleapis.com,ProxyGFW
 HOST-SUFFIX,transparency.org,ProxyGFW
 HOST-SUFFIX,treemall.com.tw,ProxyGFW
 HOST-SUFFIX,trendsmap.com,ProxyGFW
@@ -6089,6 +6091,7 @@ HOST-SUFFIX,twitturly.com,ProxyGFW
 HOST-SUFFIX,twitvid.com,ProxyGFW
 HOST-SUFFIX,twitzap.com,ProxyGFW
 HOST-SUFFIX,twiyia.com,ProxyGFW
+HOST-SUFFIX,twkan.com,ProxyGFW
 HOST-SUFFIX,twnorth.org.tw,ProxyGFW
 HOST-SUFFIX,twreporter.org,ProxyGFW
 HOST-SUFFIX,twskype.com,ProxyGFW

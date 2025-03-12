@@ -1,5 +1,5 @@
 # 规则名称: ProxyGFW
-# 规则统计: 7098
+# 规则统计: 7101
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -120,6 +120,7 @@ DOMAIN-SUFFIX,64wiki.com
 DOMAIN-SUFFIX,66.ca
 DOMAIN-SUFFIX,666kb.com
 DOMAIN-SUFFIX,666pool.cn
+DOMAIN-SUFFIX,69shuba.cx
 DOMAIN-SUFFIX,6do.news
 DOMAIN-SUFFIX,6do.world
 DOMAIN-SUFFIX,6park.com
@@ -3732,7 +3733,6 @@ DOMAIN-SUFFIX,mansionpoker.com
 DOMAIN-SUFFIX,manta.com
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,maplew.com
-DOMAIN-SUFFIX,maps.googleapis.com
 DOMAIN-SUFFIX,marc.info
 DOMAIN-SUFFIX,marguerite.su
 DOMAIN-SUFFIX,martau.com
@@ -3985,6 +3985,7 @@ DOMAIN-SUFFIX,multiupload.com
 DOMAIN-SUFFIX,mummysgold.com
 DOMAIN-SUFFIX,murmur.tw
 DOMAIN-SUFFIX,musicade.net
+DOMAIN-SUFFIX,musixmatch.com
 DOMAIN-SUFFIX,muslimvideo.com
 DOMAIN-SUFFIX,muzi.com
 DOMAIN-SUFFIX,muzi.net
@@ -4400,6 +4401,7 @@ DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
+DOMAIN-SUFFIX,open.spotify.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,opendemocracy.net
@@ -4648,6 +4650,7 @@ DOMAIN-SUFFIX,politicalchina.org
 DOMAIN-SUFFIX,politicalconsultation.org
 DOMAIN-SUFFIX,politiscales.net
 DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerhk.com
 DOMAIN-SUFFIX,poolbinance.com
@@ -5911,7 +5914,6 @@ DOMAIN-SUFFIX,tracfone.com
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trans.wenweipo.com
 DOMAIN-SUFFIX,translate.goog
-DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,transparency.org
 DOMAIN-SUFFIX,treemall.com.tw
 DOMAIN-SUFFIX,trendsmap.com
@@ -6089,6 +6091,7 @@ DOMAIN-SUFFIX,twitturly.com
 DOMAIN-SUFFIX,twitvid.com
 DOMAIN-SUFFIX,twitzap.com
 DOMAIN-SUFFIX,twiyia.com
+DOMAIN-SUFFIX,twkan.com
 DOMAIN-SUFFIX,twnorth.org.tw
 DOMAIN-SUFFIX,twreporter.org
 DOMAIN-SUFFIX,twskype.com
